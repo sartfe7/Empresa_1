@@ -13,7 +13,7 @@
         $id_emp = $_POST['id_empleado'];
         $nombre_emp = $_POST['nombre_empleado'];
         $apellidos_emp = $_POST['apellidos_empleados'];
-        $departamento_emp = $_POST['departamento_empleado'];
+        $departamento_emp = $_POST['id_departamento'];
 
         $query = "INSERT INTO Empleado(id_empleado, nombre_empleado, apellidos_empleados, id_departamento) VALUES ('$id_emp', '$nombre_emp', '$apellidos_emp', '$departamento_emp')";
 
